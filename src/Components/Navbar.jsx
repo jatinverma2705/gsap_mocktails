@@ -34,7 +34,7 @@ const Navbar = () => {
  },
 ];
   return (
-    <nav className='flex justify-around items-center px-6'>
+    <nav className='flex flex-col md:flex-row md:justify-around md:items-center px-6 py-4 items-center gap-2 md:gap-0'>
         <div className=''>
             <a href="#home" className='flex items-center gap-2'>
                 <img src="/images/logo.png" alt="" />
@@ -43,7 +43,7 @@ const Navbar = () => {
             </a>
         </div>
 
-        <ul>
+        <ul className='flex gap-4 md:gap-6'>
             {navLinks.map((link) => {
                 return (
                     <li key={link.id}>
