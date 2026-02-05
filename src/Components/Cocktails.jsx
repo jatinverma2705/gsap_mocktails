@@ -29,56 +29,56 @@ const Cocktails = () => {
 
     const cocktailLists = [
  {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Caten Malbee",
-	country: "AU",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Rhino Pale Ale",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Irish Guinness",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+    name: "Whiskey Sour",
+    country: "IN",
+    detail: "Whiskey, Lemon, Sugar",
+    price: "₹460",
+  },
+  {
+    name: "Bloody Mary",
+    country: "IN",
+    detail: "Vodka, Tomato Juice, Spice",
+    price: "₹440",
+  },
+  {
+    name: "Sex on the Beach",
+    country: "IN",
+    detail: "Vodka, Peach, Orange",
+    price: "₹480",
+  },
+  {
+    name: "Piña Colada",
+    country: "IN",
+    detail: "Rum, Coconut, Pineapple",
+    price: "₹500",
+  },
 ];
 
 const mockTailLists = [
+  {
+    name: "Classic Shikanji",
+    country: "IN",
+    detail: "Indian Lemonade",
+    price: "₹180",
+  },
+{
+    name: "Kiwi Refresher",
+    country: "IN",
+    detail: "Kiwi & Lime",
+    price: "₹230",
+  },
+{
+    name: "Fruit Punch",
+    country: "IN",
+    detail: "Mixed Fruit Blend",
+    price: "₹220",
+  },
  {
-	name: "Tropical Bloom",
-	country: "US",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Passionfruit Mint",
-	country: "US",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Citrus Glow",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Lavender Fizz",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+    name: "Virgin Pina Colada",
+    country: "IN",
+    detail: "Coconut & Pineapple",
+    price: "₹260",
+  },
 ];
   return (
     <section id='cocktails' className='noisy' >
